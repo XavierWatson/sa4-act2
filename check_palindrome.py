@@ -15,3 +15,6 @@ elif choice == "f":
       text = open(file, "r").read()
       check_palindrome(text)
     except(OSError):
+             print(f"Unable to process file at {file}")
+else:
+   print("Invalid choice")
